@@ -1,0 +1,9 @@
+
+
+p{
+    position: absolute;
+    top: 40%;
+}
+content p{
+    font-size: 20px;
+}

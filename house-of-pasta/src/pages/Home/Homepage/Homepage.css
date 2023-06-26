@@ -1,0 +1,17 @@
+.homepage-img {
+    height: 100vh;
+    background-image: url('../../../assets/images/background.png');
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: cover;
+  position: relative;
+
+}
+.content {
+    position: absolute;
+    top: 40%;
+}
+content p{
+    font-size: 20px;
+}
+

@@ -32,3 +32,19 @@ button{
 button:hover {
   opacity: 0.9;
 }
+.heading {
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding-bottom:10px;
+
+}
+.text{
+  color:white;
+}
+.footer{
+  display: inline;
+  width:200px;
+}
