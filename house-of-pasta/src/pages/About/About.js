@@ -1,9 +1,16 @@
-import react from 'react'
+import React from 'react'
 import './About.css'
+import BackgroundImage from '../../components/BackgroundImage/BackgroundImage'
+import bgImage from '../../assets/images/carbonara-pasta.png'
 const About = () => {
     return(
         <div>
-            <p>hjkhghbcdlcn</p>
+            <BackgroundImage 
+            bgImage = {bgImage}
+            heading = {["About us"]}
+            text = "kuhghfkvjfviubkjasgvb.sjcfVdh.dscgvydkh"
+            />
+          
         </div>
     )
 }

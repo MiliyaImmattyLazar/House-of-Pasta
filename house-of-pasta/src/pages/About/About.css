@@ -1,7 +1,8 @@
 
 
 p{
-    position: absolute;
+    position: bottom;
+    padding-left: 50px;
     top: 40%;
 }
 content p{

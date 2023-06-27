@@ -15,7 +15,7 @@
     text-decoration: none;
   }
   .container {
-    max-width: 1310px;
+    /* max-width: 1310px; */
     margin:0 auto;
     padding:0 50px;
   }
@@ -43,8 +43,5 @@ button:hover {
 }
 .text{
   color:white;
-}
-.footer{
-  display: inline;
-  width:200px;
+  font-size: 30px;
 }
