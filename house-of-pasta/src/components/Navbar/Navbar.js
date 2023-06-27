@@ -28,7 +28,7 @@ const Navbar = () => {
                             <NavLink className="nav-link" to="/contact">Contact us</NavLink>
                         </li>
                         <li>
-                            <button>cart</button>
+                        <NavLink className="cart" to="/cart">Cart</NavLink>
                         </li>
                     </ul>
 

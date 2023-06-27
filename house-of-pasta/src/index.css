@@ -45,3 +45,6 @@ button:hover {
   color:white;
   font-size: 30px;
 }
+image.small{
+  max-height: 8rem;
+}
