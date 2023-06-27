@@ -5,14 +5,17 @@ import Menu from './pages/Menu/Menu'
 import About from './pages/About/About'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import data from './data'
 function App() {
+  const {menu} = data
   return (
     <div>
    <Navbar />
    <Routes>
     <Route path = "/" element={<Home />} />
-    <Route path = "/menu" element={<Menu />} />
+    <Route path = "/menu" element={<Menu menu={menu} />} />
     <Route path = "/about" element={ <About/>} />
+   
    </Routes>
    <Footer />
   
