@@ -45,6 +45,57 @@ button:hover {
   color:white;
   font-size: 30px;
 }
-image.small{
-  max-height: 8rem;
+
+.small{
+  width: 500px;
+  height: 300px;
+  
+}
+.big{
+  padding-top: 50px;
+  padding-left: 450px;
+  display: gridflex;
+  background-size: cover;
+  background-image: url(./assets/images/menu-backgroundimage.png);
+  color:white;
+ 
+}
+.booking {
+ padding-top:250px;
+}
+
+.block {
+  background-image: url(./assets/images/menu-backgroundimage.png);
+}
+.menu-heading {
+  padding-top: 150px;
+  padding-left: 600px;
+  background-image: url(./assets/images/menu-backgroundimage.png); 
+  color:white;
+  
+}
+.block-col-1{
+  padding-top:500px;
+ 
+ background-image: url(./assets/images/menu-backgroundimage.png); 
+  background-size: cover;
+  
+}
+.col-2 {
+   color:white; 
+  padding-left:200px
+}
+.row{
+  color:white;
+}
+.cartheading{
+  padding-left:200px;
+  color:white;
+}
+.col-2 text-right{
+  color:white;
+}
+.footerdiv{
+  background-color: rgb(40, 34, 34);
+ 
 }

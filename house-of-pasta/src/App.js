@@ -8,6 +8,7 @@ import Cart from './pages/Cart/Cart'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import data from './data'
+import Book from './pages/Book/Book'
 function App() {
   const {menu} = data
   const [cartItems,setCartItems] = useState([])
@@ -41,12 +42,10 @@ function App() {
     <Route path = "/menu" element={<Menu onadd={onadd}menu={menu} />} />
     <Route path = "/about" element={ <About/>} />
     <Route path = "/cart" element={ <Cart onremove={onremove} onadd={onadd}cartItems={cartItems}/>} />
-   
+    <Route path = "/book" element={ <Book/>} />
    </Routes>
    <Footer />
-  
     </div>
-   
     
   );
 }

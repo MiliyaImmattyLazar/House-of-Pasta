@@ -2,9 +2,12 @@
 
 p{
     position: bottom;
-    padding-left: 50px;
+    padding-left: 10px;
+    padding-right: 500px;
     top: 40%;
 }
 content p{
     font-size: 20px;
+    
+    
 }

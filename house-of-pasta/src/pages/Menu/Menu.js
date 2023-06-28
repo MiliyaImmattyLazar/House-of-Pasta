@@ -1,17 +1,18 @@
 import React from 'react'
-// import data from '../../data'
+import './menu.css'
 import Product from '../../components/Product'
+import './menu.css'
 function Menu(props){
     const {menu,onadd} = props;
     return(
-            <main classname="block">
-            <h1>Menu</h1>
+            <div classname="menu-style">
+            <h1 className='menu-heading'> Our Menu</h1>
             <div className='row'>
                 {menu.map((menuitem) => (
                     <Product key={menuitem.id} menuitem={menuitem} onadd={onadd}></Product>
                 ))}
             </div>
-            </main>
+            </div>
     )
 }
 export default Menu
