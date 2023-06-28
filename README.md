@@ -10,7 +10,12 @@ This is a website for a restaurent using React. Foodies can simply browse the me
 
 ## :rocket:Cool tech
 - JavaScript
-- React
+- Framework: React
+- Coding Languages: JavaScript, HTML, CSS
+- API: mockapi.io
+- Code editor: Visual Studio
+- Deployment: Surge
+
 ## :scream:Bugs to fix :poop:
 - CSS styling needs to be fixed in some pages.
 
