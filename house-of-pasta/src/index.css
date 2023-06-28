@@ -19,19 +19,55 @@
     margin:0 auto;
     padding:0 50px;
   }
-button{
-  padding:  10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  text-transform: capitalize;
-  font-weight: 600;
-  color:white;
+ 
 
-  background-color: red;
+/* CSS */
+button{
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #444646 0, #202325 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(102, 105, 124, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
 }
+
+button:focus {
+  box-shadow: #5e5f67 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #61647a 0 -3px 0 inset;
+}
+
 button:hover {
-  opacity: 0.9;
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #5b5d6a 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
+
+button:active {
+  box-shadow: #676b88 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
 .heading {
   color: white;
   font-size: 60px;
@@ -39,6 +75,7 @@ button:hover {
   text-transform: uppercase;
   line-height: 1.1;
   padding-bottom:10px;
+  padding-left: 150px;
 
 }
 .text{
@@ -61,7 +98,12 @@ button:hover {
  
 }
 .booking {
- padding-top:250px;
+  
+  padding-left: 350px;
+  padding-top:250px;
+  color: white;
+ background-image: url(./assets/images/menu-backgroundimage.png); 
+ 
 }
 
 .block {
@@ -75,7 +117,7 @@ button:hover {
   
 }
 .block-col-1{
-  padding-top:500px;
+  padding-top:200px;
  
  background-image: url(./assets/images/menu-backgroundimage.png); 
   background-size: cover;
@@ -89,6 +131,7 @@ button:hover {
   color:white;
 }
 .cartheading{
+  padding-bottom: 20px;
   padding-left:200px;
   color:white;
 }
@@ -98,4 +141,36 @@ button:hover {
 .footerdiv{
   background-color: rgb(40, 34, 34);
  
+}
+.end1{
+  padding-top: 400px;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=date], select, textarea {
+  width: 50%;
+  padding: 12px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=Time], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.hi{
+  background-color: red;
 }

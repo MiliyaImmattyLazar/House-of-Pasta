@@ -8,7 +8,7 @@ function Product (props){
          <h3>{menuitem.name}</h3>
          <div>${menuitem.price}</div>
          <div>
-            <button onClick={() => onadd(menuitem)} >add to cart</button>
+            <button onClick={() => onadd(menuitem)} >Add to Cart</button>
          </div>
         </div>
     )

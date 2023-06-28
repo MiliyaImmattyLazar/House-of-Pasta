@@ -4,7 +4,7 @@ const {cartItems,onadd,onremove} = props
 const total = cartItems.reduce((a,c) => a+c.price * c.qty,0)
 return (
     <div className='block-col-1'>
-        <h2 className='cartheading'>cart items</h2>
+        <h2 className='cartheading'>Cart Items</h2>
         <div>
             {cartItems.length === 0 && <div className="row">Cart is empty</div>}
         </div>
@@ -16,7 +16,7 @@ return (
                     <button onClick={() => onremove(item)} className='remove'>-</button>
                     </div>
                     <div className='col-2 text-right'>{item.qty} x ${item.price}</div>
-                    <div className='end'>******</div>
+                   
                 </div>
                 
             
@@ -26,6 +26,7 @@ return (
             <hr></hr>
             <div className="row">Total Price</div>
             <div className="row">${total}</div>
+            <div className='end1'>******</div>
             </>
         )}
     </div>

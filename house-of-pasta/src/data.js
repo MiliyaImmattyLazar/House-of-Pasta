@@ -45,7 +45,8 @@ const data = {
 },
 {id:'8',
     name:'soup',
-    image:soup
+    image:soup,
+    price:15
 }
 ]
 }

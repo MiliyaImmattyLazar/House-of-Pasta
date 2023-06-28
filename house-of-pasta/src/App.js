@@ -2,6 +2,7 @@ import React from 'react'
 import {Routes,Route} from 'react-router-dom'
 import {useState} from 'react'
 import Home from './pages/Home/Home'
+import Contact from './pages/Contact/Contact'
 import Menu from './pages/Menu/Menu'
 import About from './pages/About/About'
 import Cart from './pages/Cart/Cart'
@@ -39,6 +40,7 @@ function App() {
    <Navbar />
    <Routes>
     <Route path = "/" element={<Home />} />
+    <Route path = "/contact" element={<Contact />} />
     <Route path = "/menu" element={<Menu onadd={onadd}menu={menu} />} />
     <Route path = "/about" element={ <About/>} />
     <Route path = "/cart" element={ <Cart onremove={onremove} onadd={onadd}cartItems={cartItems}/>} />

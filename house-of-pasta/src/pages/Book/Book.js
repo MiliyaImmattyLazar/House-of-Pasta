@@ -1,6 +1,7 @@
 
  import React  from 'react';
  import {useState} from 'react'
+ import './Book.css'
 function Book() {
   const[name,setName] = useState()
   const[date,setDate] = useState()
@@ -53,16 +54,30 @@ getBooking()
   
     
     return (
-        <div className='booking'>
         
-            <label htmlFor="Name">Name</label>
-            <input onChange={(e) => setName(e.target.value)} type="text"  />
+        
+        <div className='booking'>
+          <div>
+         <div> <label htmlFor="Name">Name</label></div>
+            <input onChange={(e) => setName(e.target.value)} type="text"  /></div>
+            
+            <div>
+              <div> <label htmlFor="">Date</label></div>
+             
             <input type="date" id="meeting-time"
        name="meeting-time" 
        onChange={(e) => setDate(e.target.value)}></input>
-       <input type="time" name="" id="" onChange={(e) => setTime(e.target.value)}/>
-            <button onClick={createBooking}>Book</button>
+            </div>
+            <div>
+              <div><label htmlFor="">Time</label></div>
+              
+               <input type="time" name="" id="" onChange={(e) => setTime(e.target.value)}/></div>
+      
+            <button className="but" onClick={createBooking}>Book</button>
+            <div className='end1'>******</div>
+           
         </div>
+       
     )
  }
        export default Book
